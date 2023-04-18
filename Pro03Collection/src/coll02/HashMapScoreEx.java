@@ -2,7 +2,7 @@
 package coll02;
 import java.util.*;
 
-public class HaseMapScoreEx {
+public class HashMapScoreEx {
 
 	public static void main(String[] args) {
 		HashMap<String, Integer> javaScore = new HashMap<String, Integer>();
