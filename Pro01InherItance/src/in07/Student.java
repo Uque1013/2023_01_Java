@@ -1,5 +1,5 @@
 package in07;
 
-class Student extends Person {
+public class Student extends Person{
 
 }
