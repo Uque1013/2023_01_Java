@@ -12,6 +12,8 @@ public class UpcastingEx {
 		// Person p = new Student(); ---- Upcasting이 된다.
 		System.out.println(p.name);	// 오류 안남
 		
+		// p를 이용 시 Student 객체 멤버 중 Person의 멤버만 접근 가능
+		// s를 이용 시 Student 객체 멤버와 Person 객체 멤버 모두 접근 가능
 		//p.grade = "A";			컴파일 오류
 		//p.department = "Com";		컴파일 오류
 	}
