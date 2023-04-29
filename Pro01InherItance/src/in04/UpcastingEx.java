@@ -10,9 +10,9 @@ public class UpcastingEx {
 		// p는 s객체를 할당 받음
 		
 		// Person p = new Student(); ---- Upcasting이 된다.
-		System.out.println(p.name);
+		System.out.println(p.name);	// 오류 안남
 		
-		//p.grade = "A";
-		//p.department = "Com";
+		//p.grade = "A";			컴파일 오류
+		//p.department = "Com";		컴파일 오류
 	}
 }
